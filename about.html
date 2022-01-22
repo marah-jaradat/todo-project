@@ -5,57 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo-about</title>
-    <link rel="style-sheet" href="CSS/styleabout.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styleabout.css">
 </head>
 
 <body>
-    <div class="grid-container">
-        <header class="about-head">
+    <header>
+
+        <section id="hed-sec1">
             <img src="/assets/logo.jpg" , alt="logo">
             <h1>To-Do </h1>
-            <button><a href="/index.html">home</a></button>
+        </section>
 
-            <nav class="nav-bar">
-                <a href="/">Most Important</a>
-                <a href="/">Tasks</a>
-                <a href="/">Routens</a>
-                <a href="/">Hobbies</a>
+        <section id="hed-sec2">
+
+            <div id="bu"><a href="/index.html">Home</a></div>
+
+            <nav>
+                <a href="/index.html">Most Important</a>
+                <a href="">Tasks</a>
+                <a href="">Routens</a>
+                <a href="">Hobbies</a>
             </nav>
+        </section>
 
-        </header>
-        <main>
-            <section class="main">
-                <h3>About us:-</h3>
-                <img src="/assets/profile.jpg" , alt="logo">
-                <p>
+
+    </header>
+
+    <main>
+        <section id="aboutSec">
+            <h3>About us:-</h3>
+            <section id="ma">
+                <img id="imgMe" src="/assets/profile.jpg" , alt="logo">
                 <h4>Marah Jaradat</h4>
+            </section>
+            <p>
                 As a beginner, I am now learning java Script and web development.
                 I believe that big achievements start with small steps.
                 Learning coding needs alot of patient, also, you have to love what you do.
                 I've many things to do, so this application may help alot organize our tasks.
                 I'm really interesting to see the final results of this web application.
-                </p>
-            </section>
-            <section class="contact-form">
-                <form>
-                    <h4>Contact </h4>
-                    <label for="fname">Full name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="num">Mobile phone:</label><br>
-                    <input type="number" id="num" name="num"><br>
-                    <label for="mail">E-mail:</label><br>
-                    <input type="email" id="mail" name="mail"><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </section>
-        </main>
+            </p>
+        </section>
+        <section>
+            <form>
+                <h4>Contact </h4>
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="num">Mobile phone:</label><br>
+                <input type="number" id="num" name="num"><br>
+                <label for="mail">E-mail:</label><br>
+                <input type="email" id="mail" name="mail"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 
-        <footer>
-            <h4>The copyright reserved for JS class &copy;</h4>
-            <h4><a href="/index.html">More Info</a>
-        </footer>
-    </div>
+    <footer>
+        <section id="copy">
+            <h4> &copy;The copyright reserved for JS class</h4>
+        </section>
+        <h4 id="info"><a href="/index.html">More Info</a>
+    </footer>
 </body>
 
 </html>

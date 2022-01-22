@@ -1,5 +1,103 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 100px 2fr; 
-    grid-template-rows: 1fr 1fr;
-  }
+body {
+  display: grid;
+  gap: 25px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 370px 1fr;
+}
+
+#hed-sec1 {
+  display: grid;
+  grid-auto-flow: column;
+  text-shadow: 10px;
+  color: rgb(117, 59, 11);
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+#hed-sec2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  text-align: right;
+  align-items: center;
+}
+
+#bu a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  /* background-color: black; */
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+nav {
+  border: solid 2px rgb(153, 52, 52);
+  background-color: black;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  right: 0px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#aboutSec {
+  display: grid;
+  grid-template-rows: 50px 2fr 3fr;
+  gap: 10px;
+  margin: 20px;
+}
+#ma {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#imgMe {
+  width: 50%;
+  height: 80%;
+}
+
+form {
+  border: 2px solid black;
+  position: absolute;
+  right: 65px;
+  top: 250px;
+  text-align: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(121, 29, 29);
+  padding: 0px;
+  margin-bottom: 0px;
+  height: 60px;
+}
+
+#info {
+  text-align: right;
+  margin-right: 10px;
+}
+#copy {
+  margin-right: 10px;
+}
+#info a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
