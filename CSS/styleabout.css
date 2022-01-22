@@ -1,5 +1,0 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 100px 2fr; 
-    grid-template-rows: 1fr 1fr;
-  }
