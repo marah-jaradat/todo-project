@@ -16,4 +16,3 @@
 ![about page](assets/Wire2.jpg)
 
 Sec 6
-
