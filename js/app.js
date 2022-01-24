@@ -23,28 +23,33 @@ if (welcomeMassege.toLowerCase() === "y" || "yes") {
   }
 }
 
-// var arr = [];
-// var firstQuestion = prompt("Do you love coding?\n (yes/no)");
-// arr.push(firstQuestion);
+var arr = [];
+var firstQuestion = prompt("Do you love coding?\n (yes/no)");
+if (firstQuestion.toLowerCase() === "yes") {
+  arr.push(firstQuestion);
+} else if (firstQuestion.toLowerCase() === "no") {
+  arr.push(firstQuestion);
+} else {
+  arr.push("Invalid");
+}
+console.log(arr);
 
-// var secondQuestion = prompt("Would you like to know more about JS?\n (yes/no)");
-// arr.push(secondQuestion);
+var secondQuestion = prompt("Would you like to know more about JS?\n (yes/no)");
+if (secondQuestion.toLowerCase() === "yes") {
+  arr.push(secondQuestion);
+} else if (secondQuestion.toLowerCase() === "no") {
+  arr.push(secondQuestion);
+} else {
+  arr.push("Invalid");
+}
+console.log(arr);
 
-// var thirdQuestion = prompt("Are you planning to be professional?\n (yes/no)");
-// arr.push(thirdQuestion);
-
-// console.log(arr);
-// if (firstQuestion === "yes" || "no") {
-//   console.log(firstQuestion);
-// } else {
-//   console.log("invalid");
-// }
-
-// arr.push(prompt("your answers"));
-// for(var i = 0; i <= 3; i++)
-//    arr.push(prompt("Enter a number");
-// // function quesArr(array){
-//     return array.shift();
-// }
-// let result= quesArr()
-// console.log();
+var thirdQuestion = prompt("Are you planning to be professional?\n (yes/no)");
+if (thirdQuestion.toLowerCase() === "yes") {
+  arr.push(thirdQuestion);
+} else if (thirdQuestion.toLowerCase() === "no") {
+  arr.push(thirdQuestion);
+} else {
+  arr.push("Invalid");
+}
+console.log(arr);
